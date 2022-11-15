@@ -28,11 +28,33 @@ const features = [
   },
 ]
 
+const meta = {
+  title: "Geovox - Find and collect items while you travel",
+  description:
+    "Collect Items for your greatest adventure. It's a real-world location app that lets you hunt for NFT items while you're out and about.",
+  url: "https://geovox.xyz",
+  image:
+    "https://ipfs.fleek.co/ipfs/bafkreihv7zoj4er3pmsvdciuhhyro6vvcdy6kdvshl4dpnk6m3rt6ifbxy",
+}
+
 const Home: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black">
       <Head>
         <title>Geovox - Find and collect items while you travel</title>
+        <meta name="title" content={meta.title} />
+        <meta name="description" content={meta.description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={meta.url} />
+        <meta property="og:title" content={meta.title} />
+        <meta property="og:description" content={meta.description} />
+        <meta property="og:image" content={meta.image} />
+        <meta name="robots" content="index, follow" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content={meta.url} />
+        <meta property="twitter:title" content={meta.title} />
+        <meta property="twitter:description" content={meta.description} />
+        <meta property="twitter:image" content={meta.image} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
