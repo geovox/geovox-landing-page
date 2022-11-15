@@ -141,12 +141,14 @@ const Home: NextPage = () => {
                 key={index}
                 className="flex flex-col justify-between items-center bg-primary-gray-150 px-4 py-6 md:px-6 md:py-8 gap-y-2 rounded-2xl"
               >
-                <Image
-                  src={feature.media}
-                  alt={feature.title}
-                  width={90}
-                  height={90}
-                />
+                <div className="p-8">
+                  <Image
+                    src={feature.media}
+                    alt={feature.title}
+                    width={50}
+                    height={50}
+                  />
+                </div>
                 <div>
                   <p className="mt-4 font-bold text-xl text-center">
                     {feature.title}
