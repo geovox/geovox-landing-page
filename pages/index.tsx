@@ -132,7 +132,11 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <Element className="my-12 max-w-5xl m-auto" name="features">
+        <Element
+          id="features"
+          className="my-12 max-w-5xl m-auto"
+          name="features"
+        >
           <p className="font-bold text-2xl text-white text-center">Features</p>
           <div className="m-auto w-16 h-1.5 bg-primary-orange mb-6" />
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
@@ -162,7 +166,7 @@ const Home: NextPage = () => {
           </div>
         </Element>
 
-        <Element className="my-12 max-w-5xl m-auto" name="apps">
+        <Element id="apps" className="my-12 max-w-5xl m-auto" name="apps">
           <p className="font-bold text-2xl text-white">Apps</p>
           <div className="w-16 h-1.5 bg-primary-orange mb-6" />
           <div className="my-8 grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -195,6 +199,7 @@ const Home: NextPage = () => {
 
         <Element
           className="my-12 w-full relative py-12 max-w-5xl"
+          id="download"
           name="download"
         >
           <div className="absolute inset-0 md:w-2/3 -ml-4 md:ml-0 rounded-tr-2xl rounded-br-2xl bg-primary-orange z-0" />
