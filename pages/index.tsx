@@ -58,8 +58,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <nav className="w-full max-w-5xl m-auto">
-        <div className="px-4 md:px-0 py-4 flex flex-col md:flex-row justify-between items-center">
+      <nav className="px-4 w-full">
+        <div className="w-full max-w-5xl m-auto py-4 flex flex-col md:flex-row justify-between items-center">
           <Image src="/logo-g.png" alt="logo-g" width={25} height={25} />
           <div className="flex gap-4 md:gap-6 mt-4 md:mt-0">
             <Link
@@ -93,7 +93,7 @@ const Home: NextPage = () => {
         </div>
       </nav>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center my-4 md:my-12 p-4 md:p-0">
+      <main className="flex w-full flex-1 flex-col items-center justify-center my-4 md:my-12 p-4">
         <div className="md:flex justify-between my-4 md:my-16 max-w-5xl m-auto">
           <div className="flex-1">
             <p className="font-bold text-4xl whitespace-pre-line">
@@ -203,7 +203,7 @@ const Home: NextPage = () => {
           name="download"
         >
           <div className="absolute inset-0 md:w-2/3 -ml-4 md:ml-0 rounded-tr-2xl rounded-br-2xl bg-primary-orange z-0" />
-          <div className="w-full max-w-4xl m-auto relative z-10 md:flex p-4 md:p-0">
+          <div className="w-full max-w-4xl m-auto relative z-10 md:flex p-4">
             <div className="text-black md:w-1/2">
               <p className="font-bold text-4xl whitespace-pre-line">
                 Try our Beta App
