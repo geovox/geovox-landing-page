@@ -219,9 +219,13 @@ const Home: NextPage = () => {
                 missing from our app.
               </p>
               <div className="mt-8 flex gap-4">
-                <p className="font-semibold text-xl underline underline-offset-4">
+                <a
+                  href="https://expo.dev/accounts/ahnafalfariza/projects/Geovox/builds/84d4b664-57e5-4191-a8ee-61398742e20d"
+                  target="_blank"
+                  className="font-semibold text-xl underline underline-offset-4"
+                >
                   Android
-                </p>
+                </a>
                 <p className="font-semibold text-xl underline underline-offset-4">
                   iOS
                 </p>
